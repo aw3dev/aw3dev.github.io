@@ -1,0 +1,100 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'speedy marker', sans-serif;
+text-shadow: 3px 2px 1px white, 0 0 0em black, 0.1em 0 0.3em black;
+}
+/*hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: pink; 
+}*/
+
+.faded {
+  color: rgba(255, 50, 200, 0.5); 
+}
+
+/*hr {
+  max-width: 85px;
+  border-width: 3px;
+  border-color: gold; 
+}*/
+header.startup {
+  background-position: center;
+  background-image: url(hawaiilife.jpg);
+  background-size: cover;
+  height: 100%;
+}
+header.startup hr {
+  margin-top: 350px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 4rem; 
+}
+
+.btn {
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'speedy marker', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: black;
+  border-color: white; }
+
+.btn-primary:hover {
+  background-color: rgba(230, 75, 150, 150);
+  border-color: black;
+  border-width: 5px;
+  cursor: pointer;
+}
+/*body {
+	background-image: url(awoahu4.jpg);
+	background-size: cover;
+}*/
+/**/
+/*
+h2,p{ color:white;
+	text-align: center;
+ }*/
+/*h2,p{
+color:black;
+text-align: center;
+border: 0px solid white;
+cursor: pointer; 
+}
+
+p{
+	font-size:130%;
+	color: white;
+	font-family: Speedy Marker;
+
+}*/
+/*#locator {
+ position: absolute; visibility: visible;
+  left: 430px; top: 430px; height: 200px; 
+  width:280px; z-index: 300;
+   }
+   .btn-danger {
+	background-color: black;
+}
+ .webtext:{
+	border: 2px solid;
+}
+   #div1 {
+	background: rgba(0,0,255,1);
+}*/
+
+
