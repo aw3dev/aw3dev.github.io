@@ -6,9 +6,33 @@ html {
 }
 
 body {
-  font-family: 'Speedy Marker', sans-serif;
-text-shadow: 3px 2px 1px white, 0 0 0em black, 0.1em 0 0.3em black;
+  font-family: 'Courgette', sans-serif;
+text-shadow: -1px -1px 1px white, 0 0 0em black, 0.1em 0 0.3em black;
 }
+
+img{
+  float: center;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  transition: all 1s;
+}
+img:hover {
+  transform: scale(1.2);
+
+}
+#TClogo{
+  position: relative;
+}
+
+#TClogo img{
+  width: 233px;
+  height: 233px;
+  position: relative;
+  top: -150px;
+  left: 0px;
+}
+
 /*hr {
   max-width: 65px;
   border-width: 3px;
@@ -16,7 +40,7 @@ text-shadow: 3px 2px 1px white, 0 0 0em black, 0.1em 0 0.3em black;
 }*/
 
 .faded {
-  color: rgba(255, 50, 200, 0.5); 
+  color: rgba(0, 0, 100, 0); 
 }
 
 /*hr {
@@ -36,26 +60,32 @@ header.startup hr {
 }
 
 header.startup h1 {
-  font-size: 4rem; 
+  font-size: 5rem; 
 }
 
 .btn {
-  font-weight: 300;
+  font-weight: 400px;
   text-transform: uppercase;
   border-radius: 300px;
-  font-family: 'speedy marker', sans-serif;
+  font-family: 'Courgette', sans-serif;
+  width: 200px;
+  height: 75px;
+  position: relative;
+  top: 168px;
+  left: 0px;
 }
 
 .btn-xl {
-  padding: 1rem 2rem; 
+  padding: 1rem 0rem; 
 }
 
 .btn-primary {
   background-color: black;
-  border-color: white; }
+  border-color: white; 
+border-width: 3px;}
 
 .btn-primary:hover {
-  background-color: rgba(230, 75, 150, 150);
+  background-color: rgba(0, 175, 0, 3);
   border-color: black;
   border-width: 5px;
   cursor: pointer;
